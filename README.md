@@ -6,7 +6,6 @@
 
 ### Tópicos :writing_hand:
 
-EM CONSTRUÇÃO
 
 - [Descrição do projeto](#descrição-do-projeto-file_folder)
 
@@ -17,6 +16,7 @@ EM CONSTRUÇÃO
 - [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 - [Observações](#observações-eyes)
 - [Bibliotecas utilizadas](#bibliotecas-utilizadas-books) 
+- [Possíveis aplicações](#possíveis-aplicações)
 - [Possíveis melhorias](#possíveis-melhorias-rocket)
 - [Desenvolvedores e Contribuintes](#desenvolvedores-e-contribuintes-computer)
 - [Licença](#licença-grey_exclamation)
@@ -29,14 +29,6 @@ EM CONSTRUÇÃO
 Código desenvolvido com a finalidade de verificar a conexão com a internet e realizar uma quantidade de testes de velocidade espaçados por um intervalo. Os valores de "quantidade" e "intervalo" são pré-determinados pelo usuário antes da execução do teste.
 Além disso, foi elaborada uma interface gráfica para o programa, de modo a ficar o mais amigável possível para o usuário.
 </p>
-
-
-
-## Deploy da Aplicação :dash:
-
-
-EM CONSTRUÇÃO
-
 
 
 
@@ -104,20 +96,19 @@ APROVEITE!
 
 ## Bibliotecas utilizadas :books:
 
-EM CONSTRUÇÃO
 
 - [Warnings](https://docs.python.org/pt-br/3.11/library/warnings.html)
 - [PyFPDF](https://pypi.org/project/fpdf/)
 - [pandas](https://pypi.org/project/pandas/)
-- [urllib]()
-- [time]()
-- [speedtest]()
-- [tkinter]()
-- [Pillow]()
-- [os]()
-- [datetime]()
-- [threading]()
-- [matplotlib]()
+- [urllib3](https://urllib3.readthedocs.io/en/latest/user-guide.html)
+- [time](https://docs.python.org/3/library/time.html)
+- [speedtest](https://github.com/sivel/speedtest-cli)
+- [tkinter](https://docs.python.org/3/library/tkinter.html)
+- [Pillow](https://pypi.org/project/Pillow/)
+- [os](https://docs.python.org/3/library/os.html)
+- [datetime](https://docs.python.org/3/library/datetime.html)
+- [threading](https://docs.python.org/3/library/threading.html)
+- [matplotlib](https://pypi.org/project/matplotlib/)
 
 
 
@@ -139,11 +130,10 @@ EM CONSTRUÇÃO
 
 ## Desenvolvedores e Contribuintes :computer:
 
-EM CONSTRUÇÃO
 
 - Bruno Mingoti - [LinkedIn]( https://www.linkedin.com/in/brunomingoti/) - [Email](brunomingoti@gmail.com)
-- Luigi Remor - [LinkedIn](https://www.linkedin.com/in/luigiremor/) - [Email]()
-- Matheus Hrihorowitsch - [LinkedIn](https://www.linkedin.com/in/matheushrihorowitsch/) - [Email]()
+- Luigi Remor - [LinkedIn](https://www.linkedin.com/in/luigiremor/) - [Email](luigiremor@gmail.com)
+- Matheus Hrihorowitsch - [LinkedIn](https://www.linkedin.com/in/matheushrihorowitsch/) - [Email](mhrihorowitsch@gmail.com)
 
 
 
