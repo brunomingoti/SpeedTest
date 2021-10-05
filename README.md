@@ -1,4 +1,4 @@
-#                                          Teste de Velocidade da Internet:chart_with_upwards_trend:
+#                                          Teste de Velocidade da Internet :chart_with_upwards_trend:
 
 
 
@@ -110,7 +110,7 @@ Arquivos gerados:
 
 
 
-## Possíveis aplicações:dart:
+## Possíveis aplicações :dart:
 
 - Encontrar os melhores horários em que a conexão é estável
 - Auxíliar na verificação de pontos que faz-se necessário o uso de repetidores
