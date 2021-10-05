@@ -1,4 +1,4 @@
-#                                          Teste de Velocidade da Internet
+#                                          Teste de Velocidade da Internet:chart_with_upwards_trend:
 
 
 
@@ -90,8 +90,6 @@ Arquivos gerados:
 - "grafico_ping.png" - gráfico 3 - ping - ping pelo tempo.
 - "report.pdf" - documento com relatório das informações obtidas a partir dos programa. 
 
-APROVEITE!
-
 
 
 ## Bibliotecas utilizadas :books:
@@ -112,7 +110,7 @@ APROVEITE!
 
 
 
-## Possíveis aplicações
+## Possíveis aplicações:dart:
 
 - Encontrar os melhores horários em que a conexão é estável
 - Auxíliar na verificação de pontos que faz-se necessário o uso de repetidores
