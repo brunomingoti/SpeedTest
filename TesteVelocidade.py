@@ -54,9 +54,9 @@ Matheus Hrihorowitsch
 import warnings
 from fpdf import FPDF  # necessário instalar "pip install fpdf"
 import pandas as pd  # necessário instalar "pip install pandas"
-import urllib.request  # necessário instalar "pip install urllib"
+import urllib.request  # necessário instalar "pip install urllib3"
 from time import sleep
-import speedtest  # necessário instalar "pip install speedtest.cli"
+import speedtest  # necessário instalar "pip install speedtest-cli"
 import tkinter as tk  # necessário instalar "pip install tkinter"
 from tkinter import ttk  # necessário instalar "pip install tkinter"
 from PIL import Image, ImageTk  # necessário instalar "pip install Pillow"
