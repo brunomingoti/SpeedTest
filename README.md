@@ -1,4 +1,4 @@
-#                                          Teste de Velocidade da Internet :chart_with_upwards_trend:
+#                                          Teste de Velocidade da Internet :signal_strength:
 
 
 
