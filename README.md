@@ -27,6 +27,9 @@
 
 <p align="justify">
 Código desenvolvido com a finalidade de verificar a conexão com a internet e realizar uma quantidade de testes de velocidade espaçados por um intervalo. Os valores de "quantidade" e "intervalo" são pré-determinados pelo usuário antes da execução do teste.
+  
+Os dados da velocidade de download, upload e ping que foram gerados durante os testes serão armazenados em um arquivo de texto e, em seguida, plotados em gráficos, que poderão ser acessados na mesma pasta em que o código está salvo. Por fim, como forma de facilitar a visualização, todos os gráficos são salvos em um arquivo único em PDF.
+  
 Além disso, foi elaborada uma interface gráfica para o programa, de modo a ficar o mais amigável possível para o usuário.
 </p>
 
@@ -76,18 +79,19 @@ O arquivo "logo.png" deve estar na mesma pasta do código.
 
 - Coloque o arquivo "logo.png" na mesma pasta do código;
 - Instale todos os pacotes necessários;
-- Execute a aplicação normalmente
+- Execute a aplicação normalmente;
+- Selecione os valores de "quantidade" e "intervalo" e clique em "Start Test".
 
 
 
 ## Observações :eyes:
 
 Arquivos gerados:
-- "dados.txt" - arquivo com informações apresentadas de maneira mais organizada separada por teste.
-- "resumo.txt" - arquivo que será utilizado na plotagem dos gráficos
-- "grafico_down.png" - gráfico 1 - download - velocidade de download pelo tempo.
-- "grafico_upl.png" - gráfico 2 - upload - velocidade de upload pelo tempo.
-- "grafico_ping.png" - gráfico 3 - ping - ping pelo tempo.
+- "dados.txt" - arquivo com informações apresentadas de maneira mais organizada separada por teste;
+- "resumo.txt" - arquivo que será utilizado na plotagem dos gráficos;
+- "grafico_down.png" - gráfico 1 - download - velocidade de download pelo tempo;
+- "grafico_upl.png" - gráfico 2 - upload - velocidade de upload pelo tempo;
+- "grafico_ping.png" - gráfico 3 - ping - ping pelo tempo;
 - "report.pdf" - documento com relatório das informações obtidas a partir dos programa. 
 
 
@@ -112,9 +116,9 @@ Arquivos gerados:
 
 ## Possíveis aplicações :dart:
 
-- Encontrar os melhores horários em que a conexão é estável
-- Auxíliar na verificação de pontos que faz-se necessário o uso de repetidores
-- Verificar se o plano contratado está condizente com a velocidade prometida pela operadora
+- Encontrar os melhores horários em que a conexão é estável;
+- Auxíliar na verificação de pontos que faz-se necessário o uso de repetidores;
+- Verificar se o plano contratado está condizente com a velocidade prometida pela operadora;
 
 
 
@@ -137,6 +141,6 @@ Arquivos gerados:
 
 ## Licença :grey_exclamation:
 
-The [MIT License]() (MIT)
+MIT License
 
 Copyright :copyright: 2021 - Teste de Velocidade da Internet
