@@ -1,1 +1,154 @@
-# SpeedTest
+#                                          Teste de Velocidade da Internet
+
+
+
+> Status do Projeto: :heavy_check_mark: (pronto)
+
+### Tópicos :writing_hand:
+
+EM CONSTRUÇÃO
+
+- [Descrição do projeto](#descrição-do-projeto-file_folder)
+
+- [Deploy da Aplicação](#deploy-da-aplicação-dash)
+
+- [Pré-requisitos](#pré-requisitos-pushpin)
+
+- [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+- [Observações](#observações-eyes)
+- [Bibliotecas utilizadas](#bibliotecas-utilizadas-books) 
+- [Possíveis melhorias](#possíveis-melhorias-rocket)
+- [Desenvolvedores e Contribuintes](#desenvolvedores-e-contribuintes-computer)
+- [Licença](#licença-grey_exclamation)
+
+
+
+## Descrição do projeto :file_folder:
+
+<p align="justify">
+Código desenvolvido com a finalidade de verificar a conexão com a internet e realizar uma quantidade de testes de velocidade espaçados por um intervalo. Os valores de "quantidade" e "intervalo" são pré-determinados pelo usuário antes da execução do teste.
+Além disso, foi elaborada uma interface gráfica para o programa, de modo a ficar o mais amigável possível para o usuário.
+</p>
+
+
+
+## Deploy da Aplicação :dash:
+
+
+EM CONSTRUÇÃO
+
+
+
+
+## Pré-requisitos :pushpin:
+
+No Python:
+
+```
+pip install urllib3
+```
+
+```
+pip install speedtest-cli
+```
+
+```
+pip install pandas
+```
+
+```
+pip install fpdf
+```
+
+```
+pip install Pillow
+```
+
+```
+pip install matplotlib
+```
+
+```
+pip install plotly
+```
+
+```
+pip install pycaw
+```
+
+
+O arquivo "logo.png" deve estar na mesma pasta do código.
+
+
+## Como rodar a aplicação :arrow_forward:
+
+- Coloque o arquivo "logo.png" na mesma pasta do código;
+- Instale todos os pacotes necessários;
+- Execute a aplicação normalmente
+
+
+
+## Observações :eyes:
+
+Arquivos gerados:
+- "dados.txt" - arquivo com informações apresentadas de maneira mais organizada separada por teste.
+- "resumo.txt" - arquivo que será utilizado na plotagem dos gráficos
+- "grafico_down.png" - gráfico 1 - download - velocidade de download pelo tempo.
+- "grafico_upl.png" - gráfico 2 - upload - velocidade de upload pelo tempo.
+- "grafico_ping.png" - gráfico 3 - ping - ping pelo tempo.
+- "report.pdf" - documento com relatório das informações obtidas a partir dos programa. 
+
+APROVEITE!
+
+
+
+## Bibliotecas utilizadas :books:
+
+EM CONSTRUÇÃO
+
+- [Warnings](https://docs.python.org/pt-br/3.11/library/warnings.html)
+- [PyFPDF](https://pypi.org/project/fpdf/)
+- [pandas](https://pypi.org/project/pandas/)
+- [urllib]()
+- [time]()
+- [speedtest]()
+- [tkinter]()
+- [Pillow]()
+- [os]()
+- [datetime]()
+- [threading]()
+- [matplotlib]()
+
+
+
+## Possíveis aplicações
+
+- Encontrar os melhores horários em que a conexão é estável
+- Auxíliar na verificação de pontos que faz-se necessário o uso de repetidores
+- Verificar se o plano contratado está condizente com a velocidade prometida pela operadora
+
+
+
+## Possíveis melhorias :rocket:
+
+:memo: Resolver erro ao encerrar o programa
+
+:memo: biblioteca urllib3 apresentou problemas ao ser executado em sistemas Mac e Linux.
+
+
+
+## Desenvolvedores e Contribuintes :computer:
+
+EM CONSTRUÇÃO
+
+- Bruno Mingoti - [LinkedIn]( https://www.linkedin.com/in/brunomingoti/) - [Email](brunomingoti@gmail.com)
+- Luigi Remor - [LinkedIn](https://www.linkedin.com/in/luigiremor/) - [Email]()
+- Matheus Hrihorowitsch - [LinkedIn](https://www.linkedin.com/in/matheushrihorowitsch/) - [Email]()
+
+
+
+## Licença :grey_exclamation:
+
+The [MIT License]() (MIT)
+
+Copyright :copyright: 2021 - Teste de Velocidade da Internet
