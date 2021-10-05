@@ -117,7 +117,7 @@ Arquivos gerados:
 ## Possíveis aplicações :dart:
 
 - Encontrar os melhores horários em que a conexão é estável;
-- Auxíliar na verificação de pontos que faz-se necessário o uso de repetidores;
+- Auxíliar na verificação de pontos que se faz necessário o uso de repetidores;
 - Verificar se o plano contratado está condizente com a velocidade prometida pela operadora;
 
 
