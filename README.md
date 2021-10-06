@@ -124,9 +124,11 @@ Arquivos gerados:
 
 ## Possíveis melhorias :rocket:
 
-:memo: Resolver erro ao encerrar o programa
+:memo: Resolver erro ao encerrar o programa;
 
-:memo: Biblioteca urllib3 apresentou problemas ao ser executada em sistemas Mac e Linux.
+:memo: Biblioteca urllib3 apresentou problemas ao ser executada em sistemas Mac e Linux;
+
+:memo: Intervalo dos testes não é totalmente respeitado, uma vez que depende do tempo dos testes realizados pela biblioteca speedtest-cli.
 
 
 
