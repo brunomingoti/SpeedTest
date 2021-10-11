@@ -128,7 +128,7 @@ Arquivos gerados:
 
 :memo: Biblioteca urllib3 apresentou problemas ao ser executada em sistemas Mac e Linux;
 
-:memo: Intervalo dos testes não é totalmente respeitado, uma vez que depende do tempo dos testes realizados pela biblioteca speedtest-cli.
+:memo: Adicionar tempo estimado da execução do programa
 
 
 
