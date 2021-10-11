@@ -51,12 +51,13 @@ Matheus Hrihorowitsch
 """
 
 
+import time
 import warnings
 from fpdf import FPDF  # necessário instalar "pip install fpdf"
 import pandas as pd  # necessário instalar "pip install pandas"
-import urllib.request  # necessário instalar "pip install urllib3"
+import urllib.request  # necessário instalar "pip install urllib"
 from time import sleep
-import speedtest  # necessário instalar "pip install speedtest-cli"
+import speedtest  # necessário instalar "pip install speedtest.cli"
 import tkinter as tk  # necessário instalar "pip install tkinter"
 from tkinter import ttk  # necessário instalar "pip install tkinter"
 from PIL import Image, ImageTk  # necessário instalar "pip install Pillow"
@@ -68,8 +69,8 @@ import matplotlib.pyplot as plt  # necessário instalar "pip install matplotlib"
 # Utilizado para omitir avisos da lib "matplotlib"
 warnings.filterwarnings("ignore", category=UserWarning)
 
-# Funções de manipulação de arquivo:
 
+# Funções de manipulação de arquivo:
 
 def arquivoExiste(nome):
     """
@@ -125,7 +126,7 @@ def verificarConexao(site="https://www.google.com.br/"):
     """
 
     try:
-        urllib.request.urlopen(site) # biblioteca urllib apresentou problemas ao ser executado em sistemas Mac e Linux.
+        urllib.request.urlopen(site)
     except:
         STATUS_text.set(
             "Você não está conectado à internet."
@@ -159,14 +160,19 @@ def testeVelocidade(nome1="dados.txt", nome2="resumo.txt", quantidade=1, interva
     sucesso2 = True
     if not arquivoExiste(nome1):
         sucesso1 = criarArquivo(nome1)
+    else:
+        open(nome1, 'w').close()
     if not arquivoExiste(nome2):
         sucesso2 = criarArquivo(nome2)
+    else:
+        open(nome2, 'w').close()
     if sucesso1 and sucesso2:
         with open(nome1, "a") as arquivoDados:
             for i in range(quantidade):
                 try:
                     STATUS_text.set(f"Realizando o teste {i+1}/{quantidade}")
                     root.update()
+                    inicio = time.time()
                     s = speedtest.Speedtest()
                     s.get_servers()
                     s.get_best_server()
@@ -178,6 +184,8 @@ def testeVelocidade(nome1="dados.txt", nome2="resumo.txt", quantidade=1, interva
                         resultados["upload"],
                         resultados["ping"],
                     )
+                    fim = time.time()
+                    tempo_gasto = fim - inicio
                     data_hora = datetime.today().strftime("%d/%m/%Y - %H:%M")
                     # Preciso converter o valor de download e e upload para a unidade de transmissão de dados que estamos acostumados (Mb/s):
                     download /= 1024000
@@ -193,7 +201,8 @@ def testeVelocidade(nome1="dados.txt", nome2="resumo.txt", quantidade=1, interva
                         )
                     if i + 1 != quantidade:
                         STATUS_text.set("Intervalo...")
-                        sleep(intervalo)
+                        if tempo_gasto > 0:
+                            sleep(intervalo - tempo_gasto)
                 except:
                     i -= 1
                     continue
